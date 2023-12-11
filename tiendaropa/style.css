@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --white: #ffffff;
+    --black: #212429;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--black);
+}
+
+nav, footer {
+    font-size: 16px;
+}
+
+.navbar a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:visited {
+    color: var(--black);
+}
+
+.navbar img {
+    padding: 16px;
+}
+
+.navbar, footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fullnavbar {
+    top: 0;
+    position: sticky;
+}
+
+h1 {
+    font-size: 32px;
+    padding: 0px 16px 16px 16px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+.content div {
+    position: relative;
+}
+
+.content .imagen {
+    display: grid;
+    justify-items: center;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.spantext {
+    padding: 32px;
+    float: left;
+}
+
+.spanprice {
+    font-weight: Bold;
+    padding: 32px;
+    float: right;
+}
+
+footer {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+footer div{
+    display: flex;
+    padding: 16px;
+    margin: 16px;
+}
+
+footer img {
+    overflow: visible;
+    padding: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--white);
+}
